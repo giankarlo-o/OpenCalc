@@ -115,6 +115,15 @@
         app:title="@string/settings_category_formatting"
         app:color="?attr/text_color">
 
+        <Preference
+            android:id="@+id/settings_select_decimal_separator"
+            app:key="darkempire78.opencalculator.DECIMAL_SEPARATOR"
+            app:selectable="true"
+            app:enabled="true"
+            app:title="Decimal separator"
+            app:summary="Change the decimal separator symbol"
+            app:icon="@drawable/decimal_selector" />
+
         <ListPreference
             app:key="darkempire78.opencalculator.NUMBER_PRECISION"
             app:title="@string/settings_formatting_precision"
